@@ -29,18 +29,18 @@ function juego() {
   var eleccion = parseInt(prompt("Elije\n 1-Piedra\n 2-Papel\n 3-Tijera"));
   if (isNaN(eleccion)) {
     alert("Ingreso no valido");
-} else switch (eleccion) {
-  case 1:
-    alert("Papel!");
-    break;
-  case 2:
-    alert("Tijera!");
-    break;
-  case 3:
-    alert("Piedra!");
-    break;
-  default:
-    alert("Ingreso no valido");
-    break;
-}
+  } else switch (eleccion) {
+    case 1:
+      alert("Papel!");
+      break;
+    case 2:
+      alert("Tijera!");
+      break;
+    case 3:
+      alert("Piedra!");
+      break;
+    default:
+      alert("Ingreso no valido");
+      break;
+  }
 }
