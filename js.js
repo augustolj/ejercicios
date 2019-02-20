@@ -12,17 +12,15 @@ function pedirEdad() {
 
 function mostrarPar() {
   if (edad % 2 == 0) {
-    console.log("El numero es par");
-  } else console.log("El numero es impar");
+    alert("El numero es par");
+  } else alert("El numero es impar");
 }
 
 function esTexto() {
-  if (isNaN(edad)) {
-    console.log("No es un numero");
-  } else console.log("Es numero");
+  alert(typeof edad);
 }
 
 function sumarUno() {
   edad++;
-  console.log(edad);
+  alert(edad);
 }
